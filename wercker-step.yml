@@ -1,5 +1,5 @@
 name: service-check
-version: 0.1.1
+version: 0.1.2
 description: Test if services are up and running by polling a certain port
 keywords:
   - service

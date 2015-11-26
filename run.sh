@@ -7,7 +7,7 @@ INTERVAL=${WERCKER_SERVICE_CHECK_INTERVAL}
 
 STEPS=$((TIMEOUT / INTERVAL))
 
-echo -e "\e[1mChecking if service $SERVICE is reachable on port $PORT \e[21m"
+echo -e "\e[1mChecking if service $SERVICE is reachable on port $PORT using timeout and interval $TIMEOUT and $INTERVAL .\e[21m"
 
 i=0; SERVICE_ONLINE=0;
 while ((i < STEPS)) && ((200!=SERVICE_ONLINE))
