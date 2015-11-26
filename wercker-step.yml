@@ -1,0 +1,21 @@
+name: service-check
+version: 0.1.0
+description: Test if services are up and running by polling a certain port
+keywords:
+  - service
+  - polling
+  - check
+properies:
+  service:
+    type: string
+    required: true
+  port:
+    type: string
+    required: true
+  timeout:
+    type: string
+    required: false
+  interval:
+    type: string
+    required: false
+    default: 100
