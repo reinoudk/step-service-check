@@ -1,18 +1,18 @@
 #!/usr/bin/env bash
 
-if [ -z ${WERCKER_SERVICE_CHECK_SERVICE} ]; then
+if [ -z "${WERCKER_SERVICE_CHECK_SERVICE}" ]; then
   fail "Please provide the service name in your wercker.yml"
 fi
 
-if [ -z ${WERCKER_SERVICE_CHECK_PORT} ]; then
+if [ -z "${WERCKER_SERVICE_CHECK_PORT}" ]; then
   fail "Please provide the service port in your wercker.yml"
 fi
 
-if [ -z ${WERCKER_SERVICE_CHECK_TIMEOUT} ]; then
+if [ -z "${WERCKER_SERVICE_CHECK_TIMEOUT}" ]; then
   WERCKER_SERVICE_CHECK_TIMEOUT="10"
 fi
 
-if [ -z ${WERCKER_SERVICE_CHECK_INTERVAL} ]; then
+if [ -z "${WERCKER_SERVICE_CHECK_INTERVAL}" ]; then
   WERCKER_SERVICE_CHECK_INTERVAL="1"
 fi
 

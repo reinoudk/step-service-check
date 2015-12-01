@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.2.1 (01-12-2015)
+Cleanup of bash
+
+- added quotes to variable
+- added wercker badge to README
+
 ## 0.2.0 (01-12-2015)
 First solid version
 
